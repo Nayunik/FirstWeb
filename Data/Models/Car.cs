@@ -21,7 +21,7 @@ namespace FirstWeb.Data.Models
 
         public bool isFavorit { set; get; }
 
-        public int available { set; get; }
+        public bool available { set; get; }
 
         public int categoryId { set; get; }
 

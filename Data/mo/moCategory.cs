@@ -9,15 +9,16 @@ namespace FirstWeb.Data.mo
 {
     public class moCategory : ICarsCategory
     {
-        public IEnumerable<Category> AllCategories { 
-            get 
-            { 
-                return new List<Category> 
-                { 
+        public IEnumerable<Category> AllCategories {
+            get
+            {
+                return new List<Category>
+                {
                     new Category { categoryName = "Электромобили", desc = "Современный вид транспорта!"},
                     new Category { categoryName = "Классические", desc = "Машины с двигателем ВЗ!"}
 
-                 }
-            } };
+                };
+            } 
+        }
     }
 }
