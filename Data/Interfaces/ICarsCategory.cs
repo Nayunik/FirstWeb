@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace FirstWeb.Data.Interfaces
 {
-    interface ICarsCategory
+   public interface ICarsCategory
     {
         IEnumerable<Category> AllCategories { get; }
     }
